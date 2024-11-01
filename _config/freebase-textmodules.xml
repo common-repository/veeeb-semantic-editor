@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<guiTexts>
+    <textModules>
+        <textModule>
+            <textRef>dateofbirth</textRef>
+            <text lang="de_DE">Geburtsdatum</text>
+            <text lang="en_GB">Date of birth</text>
+        </textModule>
+        <textModule>
+            <textRef>profession</textRef>
+            <text lang="de_DE">Beruf</text>
+            <text lang="en_GB">Profession</text>
+        </textModule>
+        <textModule>
+            <textRef>placeofbirth</textRef>
+            <text lang="de_DE">Geburtsort</text>
+            <text lang="en_GB">Place of birth</text>
+        </textModule>
+        <textModule>
+            <textRef>nationality</textRef>
+            <text lang="de_DE">Nationalität</text>
+            <text lang="en_GB">Nationality</text>
+        </textModule>
+        <textModule>
+            <textRef>datefounded</textRef>
+            <text lang="de_DE">Gründungsdatum</text>
+            <text lang="en_GB">Date Founded</text>
+        </textModule>
+        <textModule>
+            <textRef>placefounded</textRef>
+            <text lang="de_DE">Gründungsort</text>
+            <text lang="en_GB">Place Founded</text>
+        </textModule>
+        <textModule>
+            <textRef>legalstructure</textRef>
+            <text lang="de_DE">Rechtsform</text>
+            <text lang="en_GB">Legal Structure</text>
+        </textModule>
+        <textModule>
+            <textRef>founders</textRef>
+            <text lang="de_DE">Gründer</text>
+            <text lang="en_GB">Founders</text>
+        </textModule>
+        <textModule>
+            <textRef>contains</textRef>
+            <text lang="de_DE">Enthält</text>
+            <text lang="en_GB">Contains</text>
+        </textModule>
+        <textModule>
+            <textRef>gender</textRef>
+            <text lang="de_DE">Geschlecht</text>
+            <text lang="en_GB">Gender</text>
+        </textModule>
+        <textModule>
+            <textRef>headquarters</textRef>
+            <text lang="de_DE">Hauptsitz</text>
+            <text lang="en_GB">Headquarters</text>
+        </textModule>
+        <textModule>
+            <textRef>geolocation</textRef>
+            <text lang="de_DE">Koordinaten</text>
+            <text lang="en_GB">Geolocation</text>
+        </textModule>
+        <textModule>
+            <textRef>numberofemployees</textRef>
+            <text lang="de_DE">Anzahl Angestellte</text>
+            <text lang="en_GB">Number of employees</text>
+        </textModule>
+        <textModule>
+            <textRef>location</textRef>
+            <text lang="de_DE">Ort</text>
+            <text lang="en_GB">Location</text>
+        </textModule>
+        <textModule>
+            <textRef>architecture</textRef>
+            <text lang="de_DE">Architektur</text>
+            <text lang="en_GB">Architecture</text>
+        </textModule>
+        <textModule>
+            <textRef>book</textRef>
+            <text lang="de_DE">Literatur</text>
+            <text lang="en_GB">Literature</text>
+        </textModule>
+        <textModule>
+            <textRef>business</textRef>
+            <text lang="de_DE">Gewerbe</text>
+            <text lang="en_GB">Business</text>
+        </textModule>
+        <textModule>
+            <textRef>fictional_universe</textRef>
+            <text lang="de_DE">Fiktion</text>
+            <text lang="en_GB">Fictional Setting</text>
+        </textModule>
+        <textModule>
+            <textRef>film</textRef>
+            <text lang="de_DE">Film</text>
+            <text lang="en_GB">Film</text>
+        </textModule>
+        <textModule>
+            <textRef>government</textRef>
+            <text lang="de_DE">Regierung</text>
+            <text lang="en_GB">Government</text>
+        </textModule>
+        <textModule>
+            <textRef>sports</textRef>
+            <text lang="de_DE">Sport</text>
+            <text lang="en_GB">Sports</text>
+        </textModule>
+        <textModule>
+            <textRef>travel</textRef>
+            <text lang="de_DE">Reisen</text>
+            <text lang="en_GB">Travel</text>
+        </textModule>
+        <textModule>
+            <textRef>olympics</textRef>
+            <text lang="de_DE">Olympia</text>
+            <text lang="en_GB">Olympics</text>
+        </textModule>
+        <textModule>
+            <textRef>protected_sites</textRef>
+            <text lang="de_DE">Stätte</text>
+            <text lang="en_GB">Sites</text>
+        </textModule>
+        <textModule>
+            <textRef>visual_art</textRef>
+            <text lang="de_DE">Kunst</text>
+            <text lang="en_GB">Art</text>
+        </textModule>
+        <textModule>
+            <textRef>people</textRef>
+            <text lang="de_DE">Persönliches</text>
+            <text lang="en_GB">Personal</text>
+        </textModule>
+        <textModule>
+            <textRef>award</textRef>
+            <text lang="de_DE">Auszeichnungen</text>
+            <text lang="en_GB">Awards</text>
+        </textModule>
+        <textModule>
+            <textRef>computer</textRef>
+            <text lang="de_DE">Computer</text>
+            <text lang="en_GB">Computers</text>
+        </textModule>
+        <textModule>
+            <textRef>conferences</textRef>
+            <text lang="de_DE">Konferenzen</text>
+            <text lang="en_GB">Conferences</text>
+        </textModule>
+        <textModule>
+            <textRef>internet</textRef>
+            <text lang="de_DE">Internet</text>
+            <text lang="en_GB">Internet</text>
+        </textModule>
+        <textModule>
+            <textRef>organization</textRef>
+            <text lang="de_DE">Organisation</text>
+            <text lang="en_GB">Organization</text>
+        </textModule>
+        <textModule>
+            <textRef>celebrities</textRef>
+            <text lang="de_DE">Berühmtheiten</text>
+            <text lang="en_GB">Celebrities</text>
+        </textModule>
+        <textModule>
+            <textRef>event</textRef>
+            <text lang="de_DE">Ereignisse</text>
+            <text lang="en_GB">Events</text>
+        </textModule>
+        <textModule>
+            <textRef>tv</textRef>
+            <text lang="de_DE">TV</text>
+            <text lang="en_GB">TV</text>
+        </textModule>
+        <textModule>
+            <textRef>music</textRef>
+            <text lang="de_DE">Musik</text>
+            <text lang="en_GB">Music</text>
+        </textModule>
+        <textModule>
+            <textRef>media_common</textRef>
+            <text lang="de_DE">Sonstiges</text>
+            <text lang="en_GB">Misc</text>
+        </textModule>
+        <textModule>
+            <textRef>influence</textRef>
+            <text lang="de_DE">Einwirkung</text>
+            <text lang="en_GB">Influence Node</text>
+        </textModule>
+        <textModule>
+            <textRef>broadcast</textRef>
+            <text lang="de_DE">Ausstrahlung</text>
+            <text lang="en_GB">Broadcast</text>
+        </textModule>
+        <textModule>
+            <textRef>exhibitions</textRef>
+            <text lang="de_DE">Ausstellungen</text>
+            <text lang="en_GB">Exhibitions</text>
+        </textModule>
+        <textModule>
+            <textRef>digicams</textRef>
+            <text lang="de_DE">Digitalkameras</text>
+            <text lang="en_GB">Digital Cameras</text>
+        </textModule>
+        <textModule>
+            <textRef>automotive</textRef>
+            <text lang="de_DE">Automobil</text>
+            <text lang="en_GB">Automotive</text>
+        </textModule>
+        <textModule>
+            <textRef>infos</textRef>
+            <text lang="de_DE">Infos</text>
+            <text lang="en_GB">Infos</text>
+        </textModule>
+        <textModule>
+            <textRef>webpages</textRef>
+            <text lang="de_DE">Webseiten</text>
+            <text lang="en_GB">Webpages</text>
+        </textModule>
+        <textModule>
+            <textRef>cvg</textRef>
+            <text lang="de_DE">Videospiel Region</text>
+            <text lang="en_GB">Video Game Region</text>
+        </textModule>
+        <textModule>
+            <textRef>food</textRef>
+            <text lang="de_DE">Essen & Trinken</text>
+            <text lang="en_GB">Food</text>
+        </textModule>
+        <textModule>
+            <textRef>biology</textRef>
+            <text lang="de_DE">Biologie</text>
+            <text lang="en_GB">Biology</text>
+        </textModule>
+        <textModule>
+            <textRef>law</textRef>
+            <text lang="de_DE">Recht</text>
+            <text lang="en_GB">Law</text>
+        </textModule>
+        <textModule>
+            <textRef>meteorology</textRef>
+            <text lang="de_DE">Meteorologie</text>
+            <text lang="en_GB">Meteorology</text>
+        </textModule>
+        <textModule>
+            <textRef>projects</textRef>
+            <text lang="de_DE">Projektfokus</text>
+            <text lang="en_GB">Project focus</text>
+        </textModule>
+    </textModules>
+</guiTexts>

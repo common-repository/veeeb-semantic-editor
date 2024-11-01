@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<guiTexts>
+    <guiLanguages>
+        <guiLanguage lang="de_DE" description="deutsch" leading="1"
+                icon="">
+            <langRef>de_DE</langRef>
+            <language>Deutsch</language>
+            <value>1</value>
+        </guiLanguage>
+        <guiLanguage lang="en_GB" description="english" leading="0"
+                icon="">
+            <langRef>en_GB</langRef>
+            <language>English</language>
+            <value>2</value>
+        </guiLanguage>
+    </guiLanguages>
+    <textModules>
+        <textModule>
+            <textRef>true</textRef>
+            <text lang="de_DE">ja</text>
+            <text lang="en_GB">yes</text>
+        </textModule>
+        <textModule>
+            <textRef>false</textRef>
+            <text lang="de_DE">nein</text>
+            <text lang="en_GB">no</text>
+        </textModule>
+        <textModule>
+            <textRef>username</textRef>
+            <text lang="de_DE">Benutzername</text>
+            <text lang="en_GB">Username</text>
+        </textModule>
+        <textModule>
+            <textRef>realname</textRef>
+            <text lang="de_DE">Realer Name</text>
+            <text lang="en_GB">Realname</text>
+        </textModule>
+         <textModule>
+            <textRef>description</textRef>
+            <text lang="de_DE">Beschreibung</text>
+            <text lang="en_GB">Description</text>
+        </textModule>
+        <textModule>
+            <textRef>taken</textRef>
+            <text lang="de_DE">Aufgenommen</text>
+            <text lang="en_GB">Taken</text>
+        </textModule>
+        <textModule>
+            <textRef>length</textRef>
+            <text lang="de_DE">Länge</text>
+            <text lang="en_GB">Length</text>
+        </textModule>
+        <textModule>
+            <textRef>notes</textRef>
+            <text lang="de_DE">Notizen</text>
+            <text lang="en_GB">Notes</text>
+        </textModule>
+         <textModule>
+            <textRef>generalSearchError</textRef>
+            <text lang="de_DE">Bei der Suche ist ein Fehler aufgetreten!</text>
+            <text lang="en_GB">An error occured while searching!</text>
+        </textModule>
+        <textModule>
+            <textRef>published</textRef>
+            <text lang="de_DE">Veröffentlicht</text>
+            <text lang="en_GB">Published</text>
+        </textModule>
+        <textModule>
+            <textRef>updated</textRef>
+            <text lang="de_DE">Aktualisiert</text>
+            <text lang="en_GB">Updated</text>
+        </textModule>
+        <textModule>
+            <textRef>length</textRef>
+            <text lang="de_DE">Länge</text>
+            <text lang="en_GB">Length</text>
+        </textModule>
+        <textModule>
+            <textRef>fastForwardVideo</textRef>
+            <text lang="de_DE">Video vorspulen</text>
+            <text lang="en_GB">Fast forward video</text>
+        </textModule>
+        <textModule>
+            <textRef>stopVideo</textRef>
+            <text lang="de_DE">Video anhalten</text>
+            <text lang="en_GB">Stop video</text>
+        </textModule>
+        <textModule>
+            <textRef>fastRewindVideo</textRef>
+            <text lang="de_DE">Video zurückspulen</text>
+            <text lang="en_GB">Fast rewind video</text>
+        </textModule>
+        <textModule>
+            <textRef>playVideo</textRef>
+            <text lang="de_DE">Video abspielen / pausieren</text>
+            <text lang="en_GB">Play / Pause video</text>
+        </textModule>
+        <textModule>
+            <textRef>average</textRef>
+            <text lang="de_DE">Durchschnitt</text>
+            <text lang="en_GB">Average</text>
+        </textModule>
+        <textModule>
+            <textRef>max</textRef>
+            <text lang="de_DE">Beste</text>
+            <text lang="en_GB">Best</text>
+        </textModule>
+        <textModule>
+            <textRef>min</textRef>
+            <text lang="de_DE">Schlechteste</text>
+            <text lang="en_GB">Worst</text>
+        </textModule>
+        <textModule>
+            <textRef>numRaters</textRef>
+            <text lang="de_DE">Bewertungen</text>
+            <text lang="en_GB">Ratings</text>
+        </textModule>
+        <textModule>
+            <textRef>favoriteCount</textRef>
+            <text lang="de_DE">In Favoriten</text>
+            <text lang="en_GB">Favorited</text>
+        </textModule>
+        <textModule>
+            <textRef>viewCount</textRef>
+            <text lang="de_DE">Aufrufe</text>
+            <text lang="en_GB">Views</text>
+        </textModule>
+        <textModule>
+            <textRef>comments</textRef>
+            <text lang="de_DE">Kommentare</text>
+            <text lang="en_GB">Comments</text>
+        </textModule>
+        <textModule>
+            <textRef>author</textRef>
+            <text lang="de_DE">Urheber</text>
+            <text lang="en_GB">Author</text>
+        </textModule>
+        <textModule>
+            <textRef>numDislikes</textRef>
+            <text lang="de_DE">Dislikes</text>
+            <text lang="en_GB">Dislikes</text>
+        </textModule>
+        <textModule>
+            <textRef>numLikes</textRef>
+            <text lang="de_DE">Likes</text>
+            <text lang="en_GB">Likes</text>
+        </textModule>
+        <textModule>
+            <textRef>statistics</textRef>
+            <text lang="de_DE">Statistiken</text>
+            <text lang="en_GB">Statistics</text>
+        </textModule>
+        <textModule>
+            <textRef>ratings</textRef>
+            <text lang="de_DE">Bewertungen</text>
+            <text lang="en_GB">Ratings</text>
+        </textModule>
+        <textModule>
+            <textRef>imageSize</textRef>
+            <text lang="de_DE">Bildgröße</text>
+            <text lang="en_GB">Image size</text>
+        </textModule>
+        <textModule>
+            <textRef>publisher</textRef>
+            <text lang="de_DE">Urheber</text>
+            <text lang="en_GB">Publisher</text>
+        </textModule>
+        <textModule>
+            <textRef>language</textRef>
+            <text lang="de_DE">Sprache</text>
+            <text lang="en_GB">Language</text>
+        </textModule>
+        <textModule>
+            <textRef>listPrice</textRef>
+            <text lang="de_DE">Listen Preis</text>
+            <text lang="en_GB">List price</text>
+        </textModule>
+        <textModule>
+            <textRef>price</textRef>
+            <text lang="de_DE">Preis</text>
+            <text lang="en_GB">Price</text>
+        </textModule>
+        <textModule>
+            <textRef>youSave</textRef>
+            <text lang="de_DE">Sie sparen</text>
+            <text lang="en_GB">You save</text>
+        </textModule>
+        <textModule>
+            <textRef>enterText</textRef>
+            <text lang="de_DE">Hier suchen...</text>
+            <text lang="en_GB">Enter text here...</text>
+        </textModule>
+        <textModule>
+            <textRef>backToTopics</textRef>
+            <text lang="de_DE">Zu den Themen</text>
+            <text lang="en_GB">Back to topics</text>
+        </textModule>
+        <textModule>
+            <textRef>backToSearch</textRef>
+            <text lang="de_DE">Zur Suche</text>
+            <text lang="en_GB">Back to search</text>
+        </textModule>
+        <textModule>
+            <textRef>backToMedia</textRef>
+            <text lang="de_DE">Zu den Medien</text>
+            <text lang="en_GB">Back to media</text>
+        </textModule>
+        <textModule>
+            <textRef>backToBag</textRef>
+            <text lang="de_DE">Zurück zur Bag</text>
+            <text lang="en_GB">Back to bag</text>
+        </textModule>
+        <textModule>
+            <textRef>backToArticle</textRef>
+            <text lang="de_DE">Zum Artikel</text>
+            <text lang="en_GB">Back to article</text>
+        </textModule>
+        <textModule>
+            <textRef>search</textRef>
+            <text lang="de_DE">suchen</text>
+            <text lang="en_GB">search</text>
+        </textModule>
+        <textModule>
+            <textRef>all</textRef>
+            <text lang="de_DE">Alle</text>
+            <text lang="en_GB">All</text>
+        </textModule>
+        <textModule>
+            <textRef>City</textRef>
+            <text lang="de_DE">Stadt</text>
+            <text lang="en_GB">City</text>
+        </textModule>
+        <textModule>
+            <textRef>Company</textRef>
+            <text lang="de_DE">Firma</text>
+            <text lang="en_GB">Company</text>
+        </textModule>
+        <textModule>
+            <textRef>OperatingSystem</textRef>
+            <text lang="de_DE">Betriebssystem</text>
+            <text lang="en_GB">Operating System</text>
+        </textModule>
+        <textModule>
+            <textRef>searchMedia</textRef>
+            <text lang="de_DE">Medien suchen</text>
+            <text lang="en_GB">Search media</text>
+        </textModule>
+        <textModule>
+            <textRef>visitWebsite</textRef>
+            <text lang="de_DE">Zu Freebase</text>
+            <text lang="en_GB">Visit Freebase</text>
+        </textModule>
+        <textModule>
+            <textRef>ProvinceOrState</textRef>
+            <text lang="de_DE">Provinz oder Staat</text>
+            <text lang="en_GB">Province or State</text>
+        </textModule>
+        <textModule>
+            <textRef>State_Province</textRef>
+            <text lang="de_DE">Provinz oder Staat</text>
+            <text lang="en_GB">Province or State</text>
+        </textModule>
+        <textModule>
+            <textRef>SportsEvent</textRef>
+            <text lang="de_DE">Sportveranstaltung</text>
+            <text lang="en_GB">Sports Event</text>
+        </textModule>
+        <textModule>
+            <textRef>Currency</textRef>
+            <text lang="de_DE">Währung</text>
+            <text lang="en_GB">Currency</text>
+        </textModule>
+        <textModule>
+            <textRef>Facility</textRef>
+            <text lang="de_DE">Einrichtung</text>
+            <text lang="en_GB">Facility</text>
+        </textModule>
+        <textModule>
+            <textRef>Product</textRef>
+            <text lang="de_DE">Produkt</text>
+            <text lang="en_GB">Product</text>
+        </textModule>
+        <textModule>
+            <textRef>EntertainmentAwardEvent</textRef>
+            <text lang="de_DE">Preisverleihung</text>
+            <text lang="en_GB">Award Event</text>
+        </textModule>
+        <textModule>
+            <textRef>ProgrammingLanguage</textRef>
+            <text lang="de_DE">Programmiersprache</text>
+            <text lang="en_GB">Programming Language</text>
+        </textModule>
+        <textModule>
+            <textRef>Technology</textRef>
+            <text lang="de_DE">Technologie</text>
+            <text lang="en_GB">Technology</text>
+        </textModule>
+        <textModule>
+            <textRef>GeoPlace</textRef>
+            <text lang="de_DE">Standort</text>
+            <text lang="en_GB">Location</text>
+        </textModule>
+        <textModule>
+            <textRef>Movie</textRef>
+            <text lang="de_DE">Film</text>
+            <text lang="en_GB">Movie</text>
+        </textModule>
+        <textModule>
+            <textRef>IndustryTerm</textRef>
+            <text lang="de_DE">Branchenbegriff</text>
+            <text lang="en_GB">Industry Term</text>
+        </textModule>
+        <textModule>
+            <textRef>FamilyName</textRef>
+            <text lang="de_DE">Familienname</text>
+            <text lang="en_GB">Family Name</text>
+        </textModule>
+        <textModule>
+            <textRef>Country</textRef>
+            <text lang="de_DE">Land</text>
+            <text lang="en_GB">Country</text>
+        </textModule>
+        <textModule>
+            <textRef>Organization</textRef>
+            <text lang="de_DE">Organisation</text>
+            <text lang="en_GB">Organization</text>
+        </textModule>
+        <textModule>
+            <textRef>putIntoBag</textRef>
+            <text lang="de_DE">In die Bag</text>
+            <text lang="en_GB">Put into Bag</text>
+        </textModule>
+        <textModule>
+            <textRef>viewAt</textRef>
+            <text lang="de_DE">ansehen auf</text>
+            <text lang="en_GB">view at</text>
+        </textModule>
+        <textModule>
+            <textRef>resize</textRef>
+            <text lang="de_DE">vergrößern</text>
+            <text lang="en_GB">resize</text>
+        </textModule>
+        <textModule>
+            <textRef>reduce</textRef>
+            <text lang="de_DE">verkleinern</text>
+            <text lang="en_GB">reduce</text>
+        </textModule>
+        <textModule>
+            <textRef>article</textRef>
+            <text lang="de_DE">Artikel</text>
+            <text lang="en_GB">Article</text>
+        </textModule>
+        <textModule>
+            <textRef>media</textRef>
+            <text lang="de_DE">Medien</text>
+            <text lang="en_GB">Media</text>
+        </textModule>
+        <textModule>
+            <textRef>dropMediaHere</textRef>
+            <text lang="de_DE">Lege deine Medien hier ab</text>
+            <text lang="en_GB">Drop your media here</text>
+        </textModule> 
+        <textModule>
+            <textRef>itemsAddedToBag</textRef>
+            <text lang="de_DE">Medien zur Bag hinzugefügt</text>
+            <text lang="en_GB">Items added to bag</text>
+        </textModule>
+        <textModule>
+            <textRef>itemAddedToBag</textRef>
+            <text lang="de_DE">Medium zur Bag hinzugefügt</text>
+            <text lang="en_GB">Item added to bag</text>
+        </textModule>
+        <textModule>
+            <textRef>itemAlreadyInBag</textRef>
+            <text lang="de_DE">Medium bereits in der Bag vorhanden</text>
+            <text lang="en_GB">Item already in bag</text>
+        </textModule>
+        <textModule>
+            <textRef>note</textRef>
+            <text lang="de_DE">Hinweis</text>
+            <text lang="en_GB">Note</text>
+        </textModule>
+        <textModule>
+            <textRef>showBag</textRef>
+            <text lang="de_DE">Bag anzeigen</text>
+            <text lang="en_GB">Show bag</text>
+        </textModule>
+        <textModule>
+            <textRef>hideBag</textRef>
+            <text lang="de_DE">Bag ausblenden</text>
+            <text lang="en_GB">Hide bag</text>
+        </textModule>
+        <textModule>
+            <textRef>yourBagIsEmpty</textRef>
+            <text lang="de_DE">Die Bag ist leer</text>
+            <text lang="en_GB">Your Bag is empty</text>
+        </textModule>
+        <textModule>
+            <textRef>youCanFillYourBag</textRef>
+            <text lang="de_DE">Befülle die Bag mit Medien</text>
+            <text lang="en_GB">You can fill your Bag with Media</text>
+        </textModule>      
+        <textModule>
+            <textRef>here</textRef>
+            <text lang="de_DE">hier</text>
+            <text lang="en_GB">here</text>
+        </textModule>
+        <textModule>
+            <textRef>close</textRef>
+            <text lang="de_DE">Schließen</text>
+            <text lang="en_GB">Close</text>
+        </textModule>
+        <textModule>
+            <textRef>help</textRef>
+            <text lang="de_DE">Hilfe</text>
+            <text lang="en_GB">Help</text>
+        </textModule>
+        <textModule>
+            <textRef>moreWordsLabel</textRef>
+            <text lang="de_DE">noch %s Zeichen verbleibend.</text>
+            <text lang="en_GB">you have %s more characters.</text>
+        </textModule>
+        <textModule>
+            <textRef>chars</textRef>
+            <text lang="de_DE">Zeichen</text>
+            <text lang="en_GB">Chars</text>
+        </textModule>
+        <textModule>
+            <textRef>maxCharCountReached</textRef>
+            <text lang="de_DE">Sie haben die maximale Anzahl (%s) an Zeichen für diesen Text erreicht.</text>
+            <text lang="en_GB">You have reached the maximum number (%s) of characters for this text.</text>
+        </textModule>  
+        <textModule>
+            <textRef>pluginGroup</textRef>
+            <text lang="de_DE">Plugingruppe</text>
+            <text lang="en_GB">Plugin group</text>
+        </textModule>
+        <textModule>
+            <textRef>imagePluginGroup</textRef>
+            <text lang="de_DE">Bild</text>
+            <text lang="en_GB">Image</text>
+        </textModule>
+        <textModule>
+            <textRef>videoPluginGroup</textRef>
+            <text lang="de_DE">Video</text>
+            <text lang="en_GB">Video</text>
+        </textModule>
+        <textModule>
+            <textRef>contentPluginGroup</textRef>
+            <text lang="de_DE">Inhalte</text>
+            <text lang="en_GB">Content</text>
+        </textModule>
+        <textModule>
+            <textRef>relevance</textRef>
+            <text lang="de_DE">Relevanz</text>
+            <text lang="en_GB">Relevance</text>
+        </textModule>
+        <textModule>
+            <textRef>showTopicInfo</textRef>
+            <text lang="de_DE">Informationen anzeigen</text>
+            <text lang="en_GB">Show topic infos</text>
+        </textModule>
+        <textModule>
+            <textRef>noFurtherInfo</textRef>
+            <text lang="de_DE">Keine weiteren Informationen verfügbar</text>
+            <text lang="en_GB">No further information available</text>
+        </textModule>
+        <textModule>
+            <textRef>research</textRef>
+            <text lang="de_DE">Recherche</text>
+            <text lang="en_GB">Research</text>
+        </textModule>
+        <textModule>
+            <textRef>save</textRef>
+            <text lang="de_DE">Speichern</text>
+            <text lang="en_GB">Save</text>
+        </textModule>
+        <textModule>
+            <textRef>cancel</textRef>
+            <text lang="de_DE">Abbrechen</text>
+            <text lang="en_GB">Cancel</text>
+        </textModule>
+        <textModule>
+            <textRef>testLink</textRef>
+            <text lang="de_DE">Link testen</text>
+            <text lang="en_GB">Test Link</text>
+        </textModule>
+        <textModule>
+            <textRef>createEditLink</textRef>
+            <text lang="de_DE">Link erstellen/editieren</text>
+            <text lang="en_GB">Create/Edit Link</text>
+        </textModule>
+        <textModule>
+            <textRef>target</textRef>
+            <text lang="de_DE">Fenster</text>
+            <text lang="en_GB">Window</text>
+        </textModule>
+        <textModule>
+            <textRef>linkUrl</textRef>
+            <text lang="de_DE">Link Ziel</text>
+            <text lang="en_GB">Link</text>
+        </textModule>
+        <textModule>
+            <textRef>veeebItAuthenticationError</textRef>
+            <text lang="de_DE">Diese Seite wurde nicht vom VeeebIt Service authentifiziert!</text>
+            <text lang="en_GB">This page is not authenticated by the VeeebIt Service!</text>
+        </textModule>  
+        <textModule>
+            <textRef>articleLabel</textRef>
+            <text lang="de_DE">Schreib deinen Artikel und lass dir im "veeeb Modus" passende Informationen anliefern.</text>
+            <text lang="en_GB">Write your article and get to the point information deliverd with the "veeeb mode".</text>
+        </textModule> 
+        <textModule>
+            <textRef>mediaLabel</textRef>
+            <text lang="de_DE">Sammle hier Bilder, Links und anderen Content zu Recherchezwecken an deinen Artikeln. (Nutzungsrechte werden dadurch nicht erworben)</text>
+            <text lang="en_GB">Collect images, links and other content for your article. (No rights of use are obtained)</text>
+        </textModule>   
+        <textModule>
+            <textRef>day</textRef>
+            <text lang="de_DE">Tag</text>
+            <text lang="en_GB">day</text>
+        </textModule>
+        <textModule>
+            <textRef>days</textRef>
+            <text lang="de_DE">Tagen</text>
+            <text lang="en_GB">days</text>
+        </textModule>
+        <textModule>
+            <textRef>hour</textRef>
+            <text lang="de_DE">Stunde</text>
+            <text lang="en_GB">hour</text>
+        </textModule>
+        <textModule>
+            <textRef>hours</textRef>
+            <text lang="de_DE">Stunden</text>
+            <text lang="en_GB">hours</text>
+        </textModule>
+         <textModule>
+            <textRef>minute</textRef>
+            <text lang="de_DE">Minute</text>
+            <text lang="en_GB">minute</text>
+        </textModule>
+        <textModule>
+            <textRef>minutes</textRef>
+            <text lang="de_DE">Minuten</text>
+            <text lang="en_GB">minutes</text>
+        </textModule>
+        <textModule>
+            <textRef>second</textRef>
+            <text lang="de_DE">Sekunde</text>
+            <text lang="en_GB">second</text>
+        </textModule>
+        <textModule>
+            <textRef>seconds</textRef>
+            <text lang="de_DE">Sekunden</text>
+            <text lang="en_GB">seconds</text>
+        </textModule>
+        <textModule>
+            <textRef>ago</textRef>
+            <text lang="de_DE">vor</text>
+            <text lang="en_GB">ago</text>
+        </textModule>
+        <textModule>
+            <textRef>twitterError</textRef>
+            <text lang="de_DE">Beim Suchen nach Twitterinformationen ist ein Fehler aufgetreten.</text>
+            <text lang="en_GB">An error occured searching for Twitter information.</text>
+        </textModule>
+        <textModule>
+            <textRef>addToSelection</textRef>
+            <text lang="de_DE">Zur Auswahl hinzufügen</text>
+            <text lang="en_GB">Add to selection</text>
+        </textModule>
+        <textModule>
+            <textRef>searchWithTopic</textRef>
+            <text lang="de_DE">Mit diesem Begriff nach Medien suchen</text>
+            <text lang="en_GB">Search for media with this term</text>
+        </textModule>
+        <textModule>
+            <textRef>noGoogleMapsApiKey</textRef>
+            <text lang="de_DE">Google Maps steht nicht zur Verfügung weil kein API Schlüssel hinterlegt wurde.</text>
+            <text lang="en_GB">Google Maps is not available because no API key was specified.</text>
+        </textModule>
+        <textModule>
+            <textRef>downloadImage</textRef>
+            <text lang="de_DE">Bild herunterladen</text>
+            <text lang="en_GB">Download Image</text>
+        </textModule>
+        <textModule>
+            <textRef>Location</textRef>
+            <text lang="de_DE">Ort</text>
+            <text lang="en_GB">Location</text>
+        </textModule>
+        <textModule>
+            <textRef>Domain</textRef>
+            <text lang="de_DE">Bezirk</text>
+            <text lang="en_GB">Domain</text>
+        </textModule>
+        <textModule>
+            <textRef>Content</textRef>
+            <text lang="de_DE">Inhalt</text>
+            <text lang="en_GB">Content</text>
+        </textModule>
+        <textModule>
+            <textRef>Politician</textRef>
+            <text lang="de_DE">Politiker</text>
+            <text lang="en_GB">Politician</text>
+        </textModule>
+        <textModule>
+            <textRef>associatedWith</textRef>
+            <text lang="de_DE">assoziiert mit</text>
+            <text lang="en_GB">associated with</text>
+        </textModule>
+        <textModule>
+            <textRef>foundInText</textRef>
+            <text lang="de_DE">Im Text gefunden</text>
+            <text lang="en_GB">Found in text</text>
+        </textModule>
+        <textModule>
+            <textRef>infoTo</textRef>
+            <text lang="de_DE">Information dazu</text>
+            <text lang="en_GB">Information related to</text>
+        </textModule>
+    </textModules>
+</guiTexts>

@@ -1,0 +1,11 @@
+﻿<config>
+	
+	<flickr apiKey="c3f2a662b1b3dd71f4e5cea0058a9aee"
+	        url="http://api.flickr.com/services/rest/"
+	        >
+		<values>
+            <value key="flickrEnabled">true</value>
+        </values>
+	</flickr>	
+		
+</config>

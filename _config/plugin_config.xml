@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pluginConfig>
+<!--	
+	<values>
+		<value key="pluginRoot">http://www.veeeb.com/plugins/1-0-14/</value>
+	</values>
+-->
+	
+    <groups>
+        <group id="image" title="Images"/>
+        <group id="video" title="Video"/>
+        <group id="content" title="Content"/>
+    </groups>
+<!--        
+-->
+	<plugin id="FlickrPlugin" url="FlickrPlugin.swf"  version="1.0.2" groupId="image" />
+	<plugin id="FotoliaSearch" url="FotoliaPlugin.swf"  version="1.0.1" groupId="image" />
+	<plugin id="GoogleImageSearch" url="GoogleImageSearchPlugin.swf"  version="1.0.2" groupId="image" />
+	<plugin id="GettyRss" url="GettyRssPlugin.swf"  version="1.0.3" groupId="image" />
+ 	<plugin id="DreamstimePlugin" url="DreamstimePlugin.swf"  version="1.0.1" groupId="image" />
+ 	<plugin id="WordpressPlugin" url="WordpressPlugin.swf"  version="1.0.2" groupId="image" />
+	
+	<plugin id="GoogleNews" url="GoogleNewsPlugin.swf"  version="1.0.3" groupId="content" />
+	<plugin id="GoogleWebSearch" url="GoogleWebSearchPlugin.swf"  version="1.0.2" groupId="content" />
+	<plugin id="AmazonBookSearch" url="AmazonBooksPlugin.swf" version="1.0.4" groupId="content" />
+	<plugin id="AmazonProductSearch" url="AmazonPlugin.swf"  version="1.0.4" groupId="content" />
+	
+	<plugin id="YouTubePlugin" url="YouTubePlugin.swf"  version="1.0.3" groupId="video" />
+	
+</pluginConfig> 

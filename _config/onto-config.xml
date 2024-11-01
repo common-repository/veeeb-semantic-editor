@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<freebase>
+	<typemapping>
+		<mapping externalType="person" fbType="/people/person" />
+		<mapping externalType="city" fbType="/location/citytown" />
+		<mapping externalType="country" fbType="/location/country" />
+		<mapping externalType="continent" fbType="/location/continent" />
+		<mapping externalType="state_province" fbType="/location/location" />
+		<mapping externalType="sports event" fbType="/time/recurring_event" />
+		<mapping externalType="position" fbType="/business/job_title" />
+		<mapping externalType="industry term" fbType="/business/industry" />
+		<mapping externalType="organization" fbType="/organization/organization" />
+		<mapping externalType="company" fbType="/organization/organization" />
+		<mapping externalType="geoplace" fbType="/location/location" />
+		<mapping externalType="operatingsystem" fbType="/computer/operating_system" />
+	</typemapping>
+	<settings>
+		<value key="ontoService">http://ontonaut.net/service/</value>
+		<value key="topicSearchService">http://www.veeeb.com/apis/freebase/freebaseproxy-topicsearch.php</value>
+		<value key="imageProxyUrl">http://www.veeeb.com/apis/basic/imgproxy-2.php?url=</value>
+		<value key="relevanceThreshold">80</value>
+		<value key="topicResultLimit">3</value>
+	</settings>
+	<tooltipAttributes>
+		<type baseType="/location/location" >
+			<property id="/location/location/contains" />
+			<property id="/location/location/geolocation" />
+		</type>
+		<type baseType="/organization/organization" >
+			<property id="/organization/organization/date_founded" />
+			<property id="/organization/organization/headquarters" />
+		</type>
+		<type baseType="/people/person" >
+			<property id="/people/person/date_of_birth" />
+			<property id="/people/person/gender" />
+			<property id="/people/person/place_of_birth" />
+			<property id="/people/person/profession" />
+		</type>
+		<type baseType="/business/employer" >
+			<property id="/business/employer/number_of_employees" />
+		</type>
+		<type baseType="/sports/sports_team" >
+			<property id="/sports/sports_team/sport" />
+			<property id="/sports/sports_team/founded" />
+			<property id="/sports/sports_team/colors" />
+		</type>
+		<type baseType="/computer/computer" >
+			<property id="/computer/computer/manufacturer" />
+			<property id="/computer/computer/introduced" />
+		</type>
+		<type baseType="/computer/software" >
+			<property id="/computer/software/developer" />
+			<property id="/computer/software/languages_used" />
+			<property id="/computer/software/first_released" />
+		</type>
+	</tooltipAttributes>
+	<detailAttributesExclusions>
+		<exclusion id="/location/statistical_region/gdp_nominal" />
+		<exclusion id="/location/statistical_region/gdp_nominal_per_capita" />
+		<exclusion id="/location/statistical_region/rent50_0" />
+		<exclusion id="/location/statistical_region/rent50_1" />
+		<exclusion id="/location/statistical_region/rent50_2" />
+		<exclusion id="/location/statistical_region/rent50_3" />
+		<exclusion id="/location/statistical_region/rent50_4" />
+		<exclusion id="/location/statistical_region/population" />
+		<exclusion id="/organization/organization_scope/organizations_with_this_scope" />
+		<exclusion id="/venture_capital/venture_investor/investments" />
+		<exclusion id="/venture_capital/venture_funded_company/venture_investors" />
+	</detailAttributesExclusions>
+	<topicTypeExclusions>
+		<exclusion id="FamilyName" />
+		<exclusion id="Facility" />
+		<exclusion id="Position" />
+		<exclusion id="NaturalPlaces" />
+		<exclusion id="NaturalPlace" />
+        <exclusion id="NaturalPlace_Common" />
+		<exclusion id="URL" />
+	</topicTypeExclusions>
+</freebase>

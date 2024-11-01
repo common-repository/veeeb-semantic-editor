@@ -1,0 +1,14 @@
+﻿<config>
+	
+	<youtube url="http://gdata.youtube.com/feeds/api/videos/"
+	         videoInfoUrl="http://www.youtube.com/get_video_info"
+	         videoUrl="http://www.youtube.com/get_video"
+	         proxyUrl="http://www.veeeb.de/proxy.php"
+	   >
+		<values>
+            <value key="youtubeEnabled">true</value>
+            <value key="youtubeHd">true</value>
+        </values>
+	</youtube>	
+		
+</config>
